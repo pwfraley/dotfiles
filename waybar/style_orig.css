@@ -1,0 +1,19 @@
+* {
+    font-family: FiraCode Nerd Font, FontAwesome;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 0px 5px;
+  }
+
+  window#waybar {
+    background-color: #333;
+    color: #eee;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    border-radius: 0px 0px 10px 10px;
+    transition-duration: .5s;
+  
+    border-bottom-width: 5px;
+    border-bottom-color: #333;
+    border-bottom-style: solid;
+  }

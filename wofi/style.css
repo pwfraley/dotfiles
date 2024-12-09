@@ -1,0 +1,8 @@
+@import ".config/wofi/themes/everforest.css";
+
+* {
+  font-family: FiraCode Nerd Font;
+  font-size: 19px;
+}
+
+

@@ -1,0 +1,77 @@
+* {
+    font-family: FiraCode Nerd Font, FontAwesome;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0px 3px 1px 3px;
+  }
+
+  window#waybar {
+    background-color: rgb(59, 66, 82);
+    color: #eee;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    border-radius: 0px 0px 10px 10px;
+    transition-duration: .5s;
+    border-bottom-width: 5px;
+    border-bottom-color: #54769b;
+    border-bottom-style: solid;
+  }
+
+  #window label {
+    font-weight: bold;
+  }
+
+  #clock {
+    font-weight: bold;
+    color:#6A9EB9;
+    font-size: 18px;
+  }
+
+  #workspaces button {
+    box-shadow: none;
+	  text-shadow: none;
+    padding: 0px;
+    border-radius: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-right: 0px;
+    color: #fff;
+    animation: ws_normal 20s ease-in-out 1;
+}
+
+#workspaces button.active {
+  /* background: #2B2F38; */
+  color: #6A9EB9;
+  /* margin-left: 1px; 
+  padding-left: 4px;
+  padding-right: 8px;
+  margin-right: 1px; */
+  animation: ws_active 20s ease-in-out 1;
+  /* transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682); */
+}
+
+#workspaces button:hover {
+  /* background: @wb-hvr-bg; */
+  background-color: #54769b;
+  color: #fff;
+  animation: ws_hover 20s ease-in-out 1;
+  transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#taskbar button {
+  box-shadow: none;
+  text-shadow: none;
+  padding: 0px;
+  border-radius: 8px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 0px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 0px;
+  color: #eee;
+  animation: tb_normal 20s ease-in-out 1;
+}
